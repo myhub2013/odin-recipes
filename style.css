@@ -1,4 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    background-color: rgb(255, 235, 205);
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    padding: 20px;
+}
 h1 {
-    
-    color: green;
+    color: rgb(57, 81, 97);
+}
+.cardcontain {
+    width: 75%;
+    margin: auto;
+}
+section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+}
+.card {
+    min-height: 200px;
+    max-width: 400px;
+    color: rgb(158, 28, 126);
+    background-color: rgb(155, 212, 212);
+    padding: 10px;
+    border: thin black solid;
+}
+.card:hover {
+    background-color: blueviolet;
+    color: white;
+    border: thin white solid;
 }
