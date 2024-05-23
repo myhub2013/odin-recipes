@@ -25,16 +25,40 @@ section {
 a {
     text-decoration: none;
 }
+#chili {
+    background-image: url("https://www.allrecipes.com/thmb/ScTPp8ols58UrSl4FRg1r5r5Eek=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-5-ingredient-chili-recipe-7508143Paula4x3-a36649ee9ec04d44a2591d1467d77e50.jpg");
+
+}
+#beef {
+    background-image: url("https://www.allrecipes.com/thmb/Ue0HV0xdlsuhJj74JsPjcyVIZWQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228823-quick-beef-stir-fry-DDMFS-4x3-1f79b031d3134f02ac27d79e967dfef5.jpg");
+    
+}
+#pasta {
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F670610.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
+
+}
+#chicken {
+    background-image: url("https://www.allrecipes.com/thmb/gJnoUIFmWPHsq3AQMXLwFXgxM2A=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/240208-simple-baked-chicken-breasts-DDMFS-4x3-74f701fc875a4af4be7ef889185c5f41.jpg");
+
+}
+#tilapia {
+    background-image: url("https://www.allrecipes.com/thmb/vlbwtOwYyxEyO1ulbVwNKLtB1Q8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201934-pan-seared-tilapia-DDMFS-4x3-1dd0e315faf2477397af2a235e2c3ade.jpg");
+}
+#ribs {
+    background-image: url("https://www.allrecipes.com/thmb/4clYRLExZ-DyDu7I1n2TmGncgW8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228498-slow-cooker-baby-back-ribs-DDMFS-008-4x3-052755bf2a444771918ef432757479a7.jpg");
+}
 .card {
     min-height: 200px;
     max-width: 400px;
-    color: rgb(158, 28, 126);
-    background-color: rgb(155, 212, 212);
+    color: rgb(78, 18, 63);
+    background-size: cover;
+    background-color: rgb(255, 255, 255, 0.8);
+    background-blend-mode: overlay;
     padding: 10px;
     border: thin black solid;
 }
 .card:hover {
-    background-color: blueviolet;
-    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: rgb(78, 18, 63, 0);
     border: thin white solid;
 }
